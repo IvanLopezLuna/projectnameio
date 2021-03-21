@@ -1,6 +1,6 @@
 {
   "vendor": "projectnameio",
-  "name": "resilienttheme",
+  "name": "test-theme",
   "version": "0.0.0",
   "builders": {
     "styles": "2.x",
