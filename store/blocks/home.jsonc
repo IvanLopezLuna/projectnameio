@@ -1,0 +1,80 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#demo",
+      "rich-text#Titulo",
+      "rich-text#Descripcion",
+      "flex-layout.row#Links",
+      "flex-layout.row#InfoCards"
+    ]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel"
+    }
+  },
+  // Rich text
+  "rich-text#Titulo": { 
+    "props": { 
+      "text": "VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": ["Titulo1", "Cabeceras"]
+    }
+  },
+  "rich-text#Descripcion": {
+    "props": {
+      "text": "#### Descripción del sitio",
+      "textPosition": "CENTER",
+      "blockClass": "Descripcion"
+    }
+  },
+  "flex-layout.row#Links": {
+    "props": {
+      "colSizing": "auto",
+      "colGap": 2,
+      "marginTop": 2
+    },
+    "children": [
+      "link#ButtonPrimary",
+      "link#ButtonSecondary",
+      "link#ButtonTertiary"
+    ]
+  },
+  "flex-layout.row#InfoCards": {
+    "props": {
+      "marginTop": 8
+    },
+    "children": [
+      "flex-layout.col#InfoCards"
+    ]
+  },
+  "flex-layout.col#InfoCards": {
+    "children": [
+      "info-card#Left",
+      "info-card#Right"
+    ]
+  }
+}

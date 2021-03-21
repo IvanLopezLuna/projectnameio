@@ -1,0 +1,62 @@
+{
+    "link#ButtonPrimary": {
+        "props": {
+            "href": "#",
+            "label": "Agregar a mi compra",
+            "target": "_self",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary"
+            },
+            "blockClass": "Main"
+        }
+    },
+    "link#ButtonSecondary": {
+        "props": {
+            "href": "#",
+            "label": "Agregar a mi compra",
+            "target": "_self",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary"
+            }
+        }
+    },
+    "link#ButtonTertiary": {
+        "props": {
+            "href": "#",
+            "label": "Agregar a mi compra",
+            "target": "_self",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "tertiary"
+            }
+        }
+    },
+    // InfoCard
+    "info-card#Left": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Clearance Sale",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "textAlignment": "center",
+            "blockClass": "Left"
+        }
+    },
+    "info-card#Right": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Clearance Sale",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "textAlignment": "center"
+        }
+    }
+}
